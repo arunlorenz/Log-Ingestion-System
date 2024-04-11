@@ -1,10 +1,10 @@
 
 from elasticsearch import Elasticsearch
-
+#deployed on elastic search
 # Elasticsearch connection details
 es = Elasticsearch(
     hosts=["https://3d033546009e49c9af9c257ac16f4087.us-central1.gcp.cloud.es.io:9243"],
-    basic_auth=("21eca12@karpagamtech.ac.in","ARUNns123@#$"),
+    basic_auth=("mail@domain.name","password"),
     verify_certs=True,
     timeout=60,
 )
